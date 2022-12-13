@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "thesis"
+version = "0.1.0"
+description = ""
+authors = ["thomas <thomas.kluiters@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.6.2"
+pandas = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
