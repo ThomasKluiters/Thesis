@@ -1,0 +1,2 @@
+class SequenceSource:
+    pass

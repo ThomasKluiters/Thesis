@@ -1,0 +1,22 @@
+name: pgembed
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h1de35cc_0
+  - ca-certificates=2022.10.11=hecd8cb5_0
+  - libffi=3.4.2=hecd8cb5_6
+  - libsqlite=3.40.0=ha978bb4_0
+  - libzlib=1.2.13=hfd90126_4
+  - ncurses=6.3=hca72f7f_3
+  - openssl=3.0.7=hfd90126_1
+  - pip=22.3.1=pyhd8ed1ab_0
+  - prodigal=2.6.3=ha5712d3_4
+  - python=3.8.9
+  - readline=8.2=hca72f7f_0
+  - setuptools=65.5.1=pyhd8ed1ab_0
+  - tk=8.6.12=h5dbffcc_0
+  - tzdata=2022g=h04d1e81_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.8=h6c40b1e_0
