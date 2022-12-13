@@ -6,7 +6,7 @@ from pgembed.model import SequenceSource
 
 @dataclasses.dataclass
 class GeneIdentifier:
-    def identify_genes(self, source: SequenceSource):
+    def identify_genes(self, source: SequenceSource) -> SequenceSource:
         raise NotImplementedError
 
     def version(self) -> Optional[str]:
